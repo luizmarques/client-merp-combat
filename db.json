@@ -1,0 +1,2523 @@
+{
+  "characters": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "name": "Aragorn",
+      "race": "Dúnedain",
+      "class": "Ranger",
+      "level": 20,
+      "stats": {
+        "strength": 95,
+        "agility": 90,
+        "constitution": 85,
+        "intelligence": 80,
+        "intuition": 75,
+        "presence": 85,
+        "appearance": 70
+      },
+      "skills": {
+        "melee": {
+          "longsword": 120,
+          "dagger": 100
+        },
+        "ranged": {
+          "bow": 110
+        },
+        "survival": {
+          "tracking": 100,
+          "herbalism": 80,
+          "climbing": 90
+        },
+        "lore": {
+          "history": 85,
+          "geography": 80
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Andúril",
+            "type": "longsword",
+            "damage": "2d10+5"
+          },
+          {
+            "name": "Elven Dagger",
+            "type": "dagger",
+            "damage": "1d6+3"
+          },
+          {
+            "name": "Bow of the Galadhrim",
+            "type": "bow",
+            "damage": "1d8+4"
+          }
+        ],
+        "armor": {
+          "type": "leather",
+          "defense": 50
+        },
+        "items": [
+          "Healing Herbs",
+          "Elven Cloak",
+          "Ranger's Kit"
+        ]
+      },
+      "background": {
+        "title": "King of Gondor",
+        "allies": [
+          "Legolas",
+          "Gimli",
+          "Gandalf"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "./assets/images/aragorn_thumb.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Legolas",
+      "race": "Elf",
+      "class": "Archer",
+      "level": 18,
+      "stats": {
+        "strength": 80,
+        "agility": 100,
+        "constitution": 75,
+        "intelligence": 85,
+        "intuition": 90,
+        "presence": 80,
+        "appearance": 85
+      },
+      "skills": {
+        "melee": {
+          "longsword": 90,
+          "dagger": 85
+        },
+        "ranged": {
+          "bow": 130
+        },
+        "survival": {
+          "tracking": 95,
+          "herbalism": 70,
+          "climbing": 85
+        },
+        "lore": {
+          "history": 80,
+          "geography": 85
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Elven Bow",
+            "type": "bow",
+            "damage": "1d8+5"
+          },
+          {
+            "name": "Elven Dagger",
+            "type": "dagger",
+            "damage": "1d6+3"
+          }
+        ],
+        "armor": {
+          "type": "leather",
+          "defense": 45
+        },
+        "items": [
+          "Elven Cloak",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "Prince of the Woodland Realm",
+        "allies": [
+          "Aragorn",
+          "Gimli",
+          "Gandalf"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "./assets/images/legolas_thumb.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Gimli",
+      "race": "Dwarf",
+      "class": "Warrior",
+      "level": 18,
+      "stats": {
+        "strength": 90,
+        "agility": 70,
+        "constitution": 95,
+        "intelligence": 75,
+        "intuition": 70,
+        "presence": 80,
+        "appearance": 60
+      },
+      "skills": {
+        "melee": {
+          "axe": 120,
+          "hammer": 110
+        },
+        "ranged": {
+          "throwing axe": 90
+        },
+        "survival": {
+          "tracking": 80,
+          "herbalism": 60,
+          "climbing": 70
+        },
+        "lore": {
+          "history": 90,
+          "geography": 75
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic",
+          "dwarvish": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Battle Axe",
+            "type": "axe",
+            "damage": "1d12+4"
+          },
+          {
+            "name": "Throwing Axe",
+            "type": "throwing axe",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "chainmail",
+          "defense": 60
+        },
+        "items": [
+          "Dwarven Ale",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "Lord of the Glittering Caves",
+        "allies": [
+          "Aragorn",
+          "Legolas",
+          "Gandalf"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "./assets/images/gimli_thumb.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "Gandalf",
+      "race": "Maia",
+      "class": "Wizard",
+      "level": 25,
+      "stats": {
+        "strength": 70,
+        "agility": 75,
+        "constitution": 80,
+        "intelligence": 100,
+        "intuition": 95,
+        "presence": 90,
+        "appearance": 85
+      },
+      "skills": {
+        "melee": {
+          "staff": 100,
+          "sword": 90
+        },
+        "magic": {
+          "fire": 120,
+          "lightning": 110,
+          "healing": 100
+        },
+        "lore": {
+          "history": 100,
+          "geography": 90
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "fluent",
+          "black speech": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Glamdring",
+            "type": "sword",
+            "damage": "1d10+4"
+          },
+          {
+            "name": "Wizard's Staff",
+            "type": "staff",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "robes",
+          "defense": 30
+        },
+        "items": [
+          "Pipe",
+          "Pipeweed",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "The Grey Pilgrim",
+        "allies": [
+          "Aragorn",
+          "Legolas",
+          "Gimli"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "../assets/images/gandalf_thumb.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "name": "Frodo Baggins",
+      "race": "Hobbit",
+      "class": "Ring-bearer",
+      "level": 10,
+      "stats": {
+        "strength": 50,
+        "agility": 60,
+        "constitution": 70,
+        "intelligence": 80,
+        "intuition": 85,
+        "presence": 75,
+        "appearance": 65
+      },
+      "skills": {
+        "melee": {
+          "dagger": 60
+        },
+        "stealth": {
+          "sneaking": 90
+        },
+        "survival": {
+          "tracking": 50,
+          "herbalism": 40,
+          "climbing": 45
+        },
+        "lore": {
+          "history": 70,
+          "geography": 65
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Sting",
+            "type": "dagger",
+            "damage": "1d6+2"
+          }
+        ],
+        "armor": {
+          "type": "mithril",
+          "defense": 100
+        },
+        "items": [
+          "The One Ring",
+          "Elven Cloak",
+          "Lembas Bread"
+        ]
+      },
+      "background": {
+        "title": "Ring-bearer",
+        "allies": [
+          "Samwise Gamgee",
+          "Gandalf",
+          "Aragorn"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/16/Frodo_Baggins.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "name": "Samwise Gamgee",
+      "race": "Hobbit",
+      "class": "Gardener",
+      "level": 10,
+      "stats": {
+        "strength": 60,
+        "agility": 55,
+        "constitution": 80,
+        "intelligence": 70,
+        "intuition": 75,
+        "presence": 70,
+        "appearance": 60
+      },
+      "skills": {
+        "melee": {
+          "dagger": 65
+        },
+        "stealth": {
+          "sneaking": 70
+        },
+        "survival": {
+          "tracking": 55,
+          "herbalism": 60,
+          "climbing": 50
+        },
+        "lore": {
+          "history": 60,
+          "geography": 55
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Elven Dagger",
+            "type": "dagger",
+            "damage": "1d6+2"
+          }
+        ],
+        "armor": {
+          "type": "leather",
+          "defense": 30
+        },
+        "items": [
+          "Elven Cloak",
+          "Lembas Bread",
+          "Cooking Gear"
+        ]
+      },
+      "background": {
+        "title": "Gardener",
+        "allies": [
+          "Frodo Baggins",
+          "Gandalf",
+          "Aragorn"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Samwise_Gamgee.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "name": "Boromir",
+      "race": "Human",
+      "class": "Warrior",
+      "level": 18,
+      "stats": {
+        "strength": 90,
+        "agility": 80,
+        "constitution": 85,
+        "intelligence": 75,
+        "intuition": 70,
+        "presence": 80,
+        "appearance": 75
+      },
+      "skills": {
+        "melee": {
+          "sword": 110,
+          "shield": 100
+        },
+        "ranged": {
+          "bow": 80
+        },
+        "survival": {
+          "tracking": 70,
+          "herbalism": 60,
+          "climbing": 65
+        },
+        "lore": {
+          "history": 75,
+          "geography": 70
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Sword of Gondor",
+            "type": "sword",
+            "damage": "1d10+4"
+          },
+          {
+            "name": "Shield of Gondor",
+            "type": "shield",
+            "defense": 40
+          }
+        ],
+        "armor": {
+          "type": "plate",
+          "defense": 70
+        },
+        "items": [
+          "Horn of Gondor",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "Captain of Gondor",
+        "allies": [
+          "Aragorn",
+          "Legolas",
+          "Gimli"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/3/31/Boromir.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "name": "Galadriel",
+      "race": "Elf",
+      "class": "Sorceress",
+      "level": 25,
+      "stats": {
+        "strength": 70,
+        "agility": 85,
+        "constitution": 80,
+        "intelligence": 100,
+        "intuition": 95,
+        "presence": 100,
+        "appearance": 95
+      },
+      "skills": {
+        "melee": {
+          "staff": 80
+        },
+        "magic": {
+          "healing": 120,
+          "illusion": 110,
+          "nature": 100
+        },
+        "lore": {
+          "history": 100,
+          "geography": 90
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Elven Staff",
+            "type": "staff",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "robes",
+          "defense": 30
+        },
+        "items": [
+          "Phial of Galadriel",
+          "Elven Cloak",
+          "Lembas Bread"
+        ]
+      },
+      "background": {
+        "title": "Lady of Lothlórien",
+        "allies": [
+          "Gandalf",
+          "Aragorn",
+          "Legolas"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/77/Galadriel.jpg"
+    }
+  ],
+  "featured": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "name": "Aragorn",
+      "race": "Dúnedain",
+      "class": "Ranger",
+      "level": 20,
+      "stats": {
+        "strength": 95,
+        "agility": 90,
+        "constitution": 85,
+        "intelligence": 80,
+        "intuition": 75,
+        "presence": 85,
+        "appearance": 70
+      },
+      "skills": {
+        "melee": {
+          "longsword": 120,
+          "dagger": 100
+        },
+        "ranged": {
+          "bow": 110
+        },
+        "survival": {
+          "tracking": 100,
+          "herbalism": 80,
+          "climbing": 90
+        },
+        "lore": {
+          "history": 85,
+          "geography": 80
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Andúril",
+            "type": "longsword",
+            "damage": "2d10+5"
+          },
+          {
+            "name": "Elven Dagger",
+            "type": "dagger",
+            "damage": "1d6+3"
+          },
+          {
+            "name": "Bow of the Galadhrim",
+            "type": "bow",
+            "damage": "1d8+4"
+          }
+        ],
+        "armor": {
+          "type": "leather",
+          "defense": 50
+        },
+        "items": [
+          "Healing Herbs",
+          "Elven Cloak",
+          "Ranger's Kit"
+        ]
+      },
+      "background": {
+        "title": "King of Gondor",
+        "allies": [
+          "Legolas",
+          "Gimli",
+          "Gandalf"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://www.filmonpaper.com/wp-content/uploads/2011/05/TheLordOfTheRingsTheReturnOfTheKing_onesheet_teaser_Aragorn_Canada-1-500x736.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Legolas",
+      "race": "Elf",
+      "class": "Archer",
+      "level": 18,
+      "stats": {
+        "strength": 80,
+        "agility": 100,
+        "constitution": 75,
+        "intelligence": 85,
+        "intuition": 90,
+        "presence": 80,
+        "appearance": 85
+      },
+      "skills": {
+        "melee": {
+          "longsword": 90,
+          "dagger": 85
+        },
+        "ranged": {
+          "bow": 130
+        },
+        "survival": {
+          "tracking": 95,
+          "herbalism": 70,
+          "climbing": 85
+        },
+        "lore": {
+          "history": 80,
+          "geography": 85
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Elven Bow",
+            "type": "bow",
+            "damage": "1d8+5"
+          },
+          {
+            "name": "Elven Dagger",
+            "type": "dagger",
+            "damage": "1d6+3"
+          }
+        ],
+        "armor": {
+          "type": "leather",
+          "defense": 45
+        },
+        "items": [
+          "Elven Cloak",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "Prince of the Woodland Realm",
+        "allies": [
+          "Aragorn",
+          "Gimli",
+          "Gandalf"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://i.pinimg.com/736x/a0/bb/19/a0bb197138f1cc7f0b8e53ab678f9a4e.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Gimli",
+      "race": "Dwarf",
+      "class": "Warrior",
+      "level": 18,
+      "stats": {
+        "strength": 90,
+        "agility": 70,
+        "constitution": 95,
+        "intelligence": 75,
+        "intuition": 70,
+        "presence": 80,
+        "appearance": 60
+      },
+      "skills": {
+        "melee": {
+          "axe": 120,
+          "hammer": 110
+        },
+        "ranged": {
+          "throwing axe": 90
+        },
+        "survival": {
+          "tracking": 80,
+          "herbalism": 60,
+          "climbing": 70
+        },
+        "lore": {
+          "history": 90,
+          "geography": 75
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic",
+          "dwarvish": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Battle Axe",
+            "type": "axe",
+            "damage": "1d12+4"
+          },
+          {
+            "name": "Throwing Axe",
+            "type": "throwing axe",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "chainmail",
+          "defense": 60
+        },
+        "items": [
+          "Dwarven Ale",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "Lord of the Glittering Caves",
+        "allies": [
+          "Aragorn",
+          "Legolas",
+          "Gandalf"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://i.pinimg.com/originals/70/43/2d/70432de9b47fead7f76a2a0e6f5affad.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "Gandalf",
+      "race": "Maia",
+      "class": "Wizard",
+      "level": 25,
+      "stats": {
+        "strength": 70,
+        "agility": 75,
+        "constitution": 80,
+        "intelligence": 100,
+        "intuition": 95,
+        "presence": 90,
+        "appearance": 85
+      },
+      "skills": {
+        "melee": {
+          "staff": 100,
+          "sword": 90
+        },
+        "magic": {
+          "fire": 120,
+          "lightning": 110,
+          "healing": 100
+        },
+        "lore": {
+          "history": 100,
+          "geography": 90
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "fluent",
+          "black speech": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Glamdring",
+            "type": "sword",
+            "damage": "1d10+4"
+          },
+          {
+            "name": "Wizard's Staff",
+            "type": "staff",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "robes",
+          "defense": 30
+        },
+        "items": [
+          "Pipe",
+          "Pipeweed",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "The Grey Pilgrim",
+        "allies": [
+          "Aragorn",
+          "Legolas",
+          "Gimli"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://example.com/images/gandalf.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "name": "Frodo Baggins",
+      "race": "Hobbit",
+      "class": "Ring-bearer",
+      "level": 10,
+      "stats": {
+        "strength": 50,
+        "agility": 60,
+        "constitution": 70,
+        "intelligence": 80,
+        "intuition": 85,
+        "presence": 75,
+        "appearance": 65
+      },
+      "skills": {
+        "melee": {
+          "dagger": 60
+        },
+        "stealth": {
+          "sneaking": 90
+        },
+        "survival": {
+          "tracking": 50,
+          "herbalism": 40,
+          "climbing": 45
+        },
+        "lore": {
+          "history": 70,
+          "geography": 65
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Sting",
+            "type": "dagger",
+            "damage": "1d6+2"
+          }
+        ],
+        "armor": {
+          "type": "mithril",
+          "defense": 100
+        },
+        "items": [
+          "The One Ring",
+          "Elven Cloak",
+          "Lembas Bread"
+        ]
+      },
+      "background": {
+        "title": "Ring-bearer",
+        "allies": [
+          "Samwise Gamgee",
+          "Gandalf",
+          "Aragorn"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/16/Frodo_Baggins.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "name": "Samwise Gamgee",
+      "race": "Hobbit",
+      "class": "Gardener",
+      "level": 10,
+      "stats": {
+        "strength": 60,
+        "agility": 55,
+        "constitution": 80,
+        "intelligence": 70,
+        "intuition": 75,
+        "presence": 70,
+        "appearance": 60
+      },
+      "skills": {
+        "melee": {
+          "dagger": 65
+        },
+        "stealth": {
+          "sneaking": 70
+        },
+        "survival": {
+          "tracking": 55,
+          "herbalism": 60,
+          "climbing": 50
+        },
+        "lore": {
+          "history": 60,
+          "geography": 55
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Elven Dagger",
+            "type": "dagger",
+            "damage": "1d6+2"
+          }
+        ],
+        "armor": {
+          "type": "leather",
+          "defense": 30
+        },
+        "items": [
+          "Elven Cloak",
+          "Lembas Bread",
+          "Cooking Gear"
+        ]
+      },
+      "background": {
+        "title": "Gardener",
+        "allies": [
+          "Frodo Baggins",
+          "Gandalf",
+          "Aragorn"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Samwise_Gamgee.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "name": "Boromir",
+      "race": "Human",
+      "class": "Warrior",
+      "level": 18,
+      "stats": {
+        "strength": 90,
+        "agility": 80,
+        "constitution": 85,
+        "intelligence": 75,
+        "intuition": 70,
+        "presence": 80,
+        "appearance": 75
+      },
+      "skills": {
+        "melee": {
+          "sword": 110,
+          "shield": 100
+        },
+        "ranged": {
+          "bow": 80
+        },
+        "survival": {
+          "tracking": 70,
+          "herbalism": 60,
+          "climbing": 65
+        },
+        "lore": {
+          "history": 75,
+          "geography": 70
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Sword of Gondor",
+            "type": "sword",
+            "damage": "1d10+4"
+          },
+          {
+            "name": "Shield of Gondor",
+            "type": "shield",
+            "defense": 40
+          }
+        ],
+        "armor": {
+          "type": "plate",
+          "defense": 70
+        },
+        "items": [
+          "Horn of Gondor",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "Captain of Gondor",
+        "allies": [
+          "Aragorn",
+          "Legolas",
+          "Gimli"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/3/31/Boromir.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "name": "Galadriel",
+      "race": "Elf",
+      "class": "Sorceress",
+      "level": 25,
+      "stats": {
+        "strength": 70,
+        "agility": 85,
+        "constitution": 80,
+        "intelligence": 100,
+        "intuition": 95,
+        "presence": 100,
+        "appearance": 95
+      },
+      "skills": {
+        "melee": {
+          "staff": 80
+        },
+        "magic": {
+          "healing": 120,
+          "illusion": 110,
+          "nature": 100
+        },
+        "lore": {
+          "history": 100,
+          "geography": 90
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Elven Staff",
+            "type": "staff",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "robes",
+          "defense": 30
+        },
+        "items": [
+          "Phial of Galadriel",
+          "Elven Cloak",
+          "Lembas Bread"
+        ]
+      },
+      "background": {
+        "title": "Lady of Lothlórien",
+        "allies": [
+          "Gandalf",
+          "Aragorn",
+          "Legolas"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/77/Galadriel.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "name": "Elrond",
+      "race": "Elf",
+      "class": "Lord",
+      "level": 25,
+      "stats": {
+        "strength": 85,
+        "agility": 90,
+        "constitution": 80,
+        "intelligence": 100,
+        "intuition": 95,
+        "presence": 90,
+        "appearance": 85
+      },
+      "skills": {
+        "melee": {
+          "sword": 110,
+          "dagger": 90
+        },
+        "magic": {
+          "healing": 120,
+          "protection": 110
+        },
+        "lore": {
+          "history": 100,
+          "geography": 90
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Hadhafang",
+            "type": "sword",
+            "damage": "1d10+4"
+          }
+        ],
+        "armor": {
+          "type": "robes",
+          "defense": 40
+        },
+        "items": [
+          "Elven Cloak",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "Lord of Rivendell",
+        "allies": [
+          "Gandalf",
+          "Aragorn",
+          "Galadriel"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Elrond.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "name": "Arwen",
+      "race": "Elf",
+      "class": "Princess",
+      "level": 20,
+      "stats": {
+        "strength": 70,
+        "agility": 85,
+        "constitution": 75,
+        "intelligence": 90,
+        "intuition": 95,
+        "presence": 100,
+        "appearance": 100
+      },
+      "skills": {
+        "melee": {
+          "sword": 80,
+          "dagger": 70
+        },
+        "magic": {
+          "healing": 110,
+          "protection": 100
+        },
+        "lore": {
+          "history": 90,
+          "geography": 85
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Elven Sword",
+            "type": "sword",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "robes",
+          "defense": 30
+        },
+        "items": [
+          "Elven Cloak",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "Princess of Rivendell",
+        "allies": [
+          "Aragorn",
+          "Elrond",
+          "Galadriel"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Arwen.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440010",
+      "name": "Eowyn",
+      "race": "Human",
+      "class": "Shieldmaiden",
+      "level": 18,
+      "stats": {
+        "strength": 85,
+        "agility": 80,
+        "constitution": 75,
+        "intelligence": 70,
+        "intuition": 75,
+        "presence": 80,
+        "appearance": 85
+      },
+      "skills": {
+        "melee": {
+          "sword": 100,
+          "spear": 90
+        },
+        "ranged": {
+          "bow": 80
+        },
+        "survival": {
+          "tracking": 70,
+          "herbalism": 60,
+          "climbing": 65
+        },
+        "lore": {
+          "history": 75,
+          "geography": 70
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Sword of Rohan",
+            "type": "sword",
+            "damage": "1d10+4"
+          },
+          {
+            "name": "Spear of Rohan",
+            "type": "spear",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "chainmail",
+          "defense": 50
+        },
+        "items": [
+          "Healing Herbs",
+          "Rohan Cloak"
+        ]
+      },
+      "background": {
+        "title": "Shieldmaiden of Rohan",
+        "allies": [
+          "Aragorn",
+          "Theoden",
+          "Merry"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Eowyn.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440011",
+      "name": "Theoden",
+      "race": "Human",
+      "class": "King",
+      "level": 20,
+      "stats": {
+        "strength": 90,
+        "agility": 75,
+        "constitution": 85,
+        "intelligence": 80,
+        "intuition": 70,
+        "presence": 85,
+        "appearance": 70
+      },
+      "skills": {
+        "melee": {
+          "sword": 110,
+          "spear": 100
+        },
+        "ranged": {
+          "bow": 70
+        },
+        "survival": {
+          "tracking": 60,
+          "herbalism": 50,
+          "climbing": 55
+        },
+        "lore": {
+          "history": 80,
+          "geography": 75
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Sword of Rohan",
+            "type": "sword",
+            "damage": "1d10+4"
+          },
+          {
+            "name": "Spear of Rohan",
+            "type": "spear",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "plate",
+          "defense": 70
+        },
+        "items": [
+          "Healing Herbs",
+          "Rohan Cloak"
+        ]
+      },
+      "background": {
+        "title": "King of Rohan",
+        "allies": [
+          "Aragorn",
+          "Eowyn",
+          "Gandalf"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/5/5e/Theoden.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440020",
+      "name": "Eldarion",
+      "race": "Half-Elf",
+      "class": "Warrior",
+      "level": 15,
+      "stats": {
+        "strength": 85,
+        "agility": 80,
+        "constitution": 75,
+        "intelligence": 70,
+        "intuition": 75,
+        "presence": 80,
+        "appearance": 85
+      },
+      "skills": {
+        "melee": {
+          "sword": 100,
+          "dagger": 90
+        },
+        "ranged": {
+          "bow": 80
+        },
+        "survival": {
+          "tracking": 70,
+          "herbalism": 60,
+          "climbing": 65
+        },
+        "lore": {
+          "history": 75,
+          "geography": 70
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Elven Sword",
+            "type": "sword",
+            "damage": "1d10+4"
+          },
+          {
+            "name": "Elven Dagger",
+            "type": "dagger",
+            "damage": "1d6+3"
+          }
+        ],
+        "armor": {
+          "type": "leather",
+          "defense": 50
+        },
+        "items": [
+          "Healing Herbs",
+          "Elven Cloak"
+        ]
+      },
+      "background": {
+        "title": "Prince of Gondor",
+        "allies": [
+          "Aragorn",
+          "Arwen"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://example.com/images/eldarion.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440021",
+      "name": "Thranduil",
+      "race": "Elf",
+      "class": "King",
+      "level": 25,
+      "stats": {
+        "strength": 80,
+        "agility": 90,
+        "constitution": 75,
+        "intelligence": 85,
+        "intuition": 90,
+        "presence": 95,
+        "appearance": 90
+      },
+      "skills": {
+        "melee": {
+          "sword": 110,
+          "dagger": 100
+        },
+        "magic": {
+          "healing": 90,
+          "nature": 100
+        },
+        "lore": {
+          "history": 100,
+          "geography": 90
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "dwarvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Elven Sword",
+            "type": "sword",
+            "damage": "1d10+5"
+          },
+          {
+            "name": "Elven Dagger",
+            "type": "dagger",
+            "damage": "1d6+4"
+          }
+        ],
+        "armor": {
+          "type": "robes",
+          "defense": 40
+        },
+        "items": [
+          "Elven Cloak",
+          "Healing Herbs"
+        ]
+      },
+      "background": {
+        "title": "King of the Woodland Realm",
+        "allies": [
+          "Legolas",
+          "Gandalf"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://example.com/images/thranduil.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440022",
+      "name": "Eomer",
+      "race": "Human",
+      "class": "Warrior",
+      "level": 20,
+      "stats": {
+        "strength": 90,
+        "agility": 80,
+        "constitution": 85,
+        "intelligence": 75,
+        "intuition": 70,
+        "presence": 80,
+        "appearance": 75
+      },
+      "skills": {
+        "melee": {
+          "sword": 110,
+          "spear": 100
+        },
+        "ranged": {
+          "bow": 70
+        },
+        "survival": {
+          "tracking": 60,
+          "herbalism": 50,
+          "climbing": 55
+        },
+        "lore": {
+          "history": 80,
+          "geography": 75
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Sword of Rohan",
+            "type": "sword",
+            "damage": "1d10+4"
+          },
+          {
+            "name": "Spear of Rohan",
+            "type": "spear",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "plate",
+          "defense": 70
+        },
+        "items": [
+          "Healing Herbs",
+          "Rohan Cloak"
+        ]
+      },
+      "background": {
+        "title": "Marshal of the Riddermark",
+        "allies": [
+          "Theoden",
+          "Eowyn"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://example.com/images/eomer.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440023",
+      "name": "Faramir",
+      "race": "Human",
+      "class": "Ranger",
+      "level": 18,
+      "stats": {
+        "strength": 80,
+        "agility": 75,
+        "constitution": 70,
+        "intelligence": 85,
+        "intuition": 80,
+        "presence": 75,
+        "appearance": 70
+      },
+      "skills": {
+        "melee": {
+          "sword": 100,
+          "dagger": 90
+        },
+        "ranged": {
+          "bow": 90
+        },
+        "survival": {
+          "tracking": 80,
+          "herbalism": 70,
+          "climbing": 75
+        },
+        "lore": {
+          "history": 85,
+          "geography": 80
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Sword of Gondor",
+            "type": "sword",
+            "damage": "1d10+4"
+          },
+          {
+            "name": "Gondorian Bow",
+            "type": "bow",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "leather",
+          "defense": 50
+        },
+        "items": [
+          "Healing Herbs",
+          "Gondorian Cloak"
+        ]
+      },
+      "background": {
+        "title": "Captain of Gondor",
+        "allies": [
+          "Boromir",
+          "Aragorn"
+        ],
+        "enemies": [
+          "Sauron",
+          "Saruman"
+        ]
+      },
+      "image_url": "https://example.com/images/faramir.jpg"
+    }
+  ],
+  "enimies": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440012",
+      "name": "Sauron",
+      "race": "Maia",
+      "class": "Dark Lord",
+      "level": 100,
+      "stats": {
+        "strength": 100,
+        "agility": 80,
+        "constitution": 100,
+        "intelligence": 95,
+        "intuition": 90,
+        "presence": 100,
+        "appearance": 50
+      },
+      "skills": {
+        "melee": {
+          "mace": 150
+        },
+        "magic": {
+          "darkness": 140,
+          "fire": 130,
+          "necromancy": 120
+        },
+        "lore": {
+          "history": 100,
+          "geography": 90
+        },
+        "languages": {
+          "black speech": "fluent",
+          "common": "fluent",
+          "elvish": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Mace of Sauron",
+            "type": "mace",
+            "damage": "3d10+10"
+          }
+        ],
+        "armor": {
+          "type": "dark armor",
+          "defense": 100
+        },
+        "items": [
+          "The One Ring"
+        ]
+      },
+      "background": {
+        "title": "Dark Lord of Mordor",
+        "allies": [
+          "Saruman",
+          "Nazgûl"
+        ],
+        "enemies": [
+          "Aragorn",
+          "Gandalf",
+          "Frodo"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7f/Sauron.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440013",
+      "name": "Saruman",
+      "race": "Maia",
+      "class": "Wizard",
+      "level": 50,
+      "stats": {
+        "strength": 70,
+        "agility": 60,
+        "constitution": 80,
+        "intelligence": 95,
+        "intuition": 90,
+        "presence": 85,
+        "appearance": 70
+      },
+      "skills": {
+        "melee": {
+          "staff": 100,
+          "sword": 80
+        },
+        "magic": {
+          "fire": 120,
+          "mind control": 110,
+          "illusion": 100
+        },
+        "lore": {
+          "history": 100,
+          "geography": 90
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "black speech": "basic"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Staff of Saruman",
+            "type": "staff",
+            "damage": "1d10+5"
+          },
+          {
+            "name": "Sword of Saruman",
+            "type": "sword",
+            "damage": "1d8+4"
+          }
+        ],
+        "armor": {
+          "type": "robes",
+          "defense": 40
+        },
+        "items": [
+          "Palantír"
+        ]
+      },
+      "background": {
+        "title": "White Wizard",
+        "allies": [
+          "Sauron",
+          "Uruk-hai"
+        ],
+        "enemies": [
+          "Gandalf",
+          "Aragorn",
+          "Frodo"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/10/Saruman.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440014",
+      "name": "Witch-king of Angmar",
+      "race": "Nazgûl",
+      "class": "Sorcerer",
+      "level": 60,
+      "stats": {
+        "strength": 90,
+        "agility": 70,
+        "constitution": 85,
+        "intelligence": 80,
+        "intuition": 75,
+        "presence": 90,
+        "appearance": 50
+      },
+      "skills": {
+        "melee": {
+          "sword": 120,
+          "mace": 110
+        },
+        "magic": {
+          "necromancy": 130,
+          "fear": 120,
+          "darkness": 110
+        },
+        "lore": {
+          "history": 90,
+          "geography": 80
+        },
+        "languages": {
+          "black speech": "fluent",
+          "common": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Morgul Blade",
+            "type": "dagger",
+            "damage": "1d8+5"
+          },
+          {
+            "name": "Witch-king's Sword",
+            "type": "sword",
+            "damage": "2d8+6"
+          }
+        ],
+        "armor": {
+          "type": "dark armor",
+          "defense": 80
+        },
+        "items": [
+          "Ring of Power"
+        ]
+      },
+      "background": {
+        "title": "Lord of the Nazgûl",
+        "allies": [
+          "Sauron",
+          "Nazgûl"
+        ],
+        "enemies": [
+          "Aragorn",
+          "Gandalf",
+          "Eowyn"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/3/3c/Witch-king_of_Angmar.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440015",
+      "name": "Gollum",
+      "race": "Hobbit",
+      "class": "Thief",
+      "level": 5,
+      "stats": {
+        "strength": 30,
+        "agility": 70,
+        "constitution": 40,
+        "intelligence": 60,
+        "intuition": 80,
+        "presence": 50,
+        "appearance": 20
+      },
+      "skills": {
+        "melee": {
+          "dagger": 50
+        },
+        "stealth": {
+          "sneaking": 100
+        },
+        "survival": {
+          "tracking": 70,
+          "herbalism": 50,
+          "climbing": 60
+        },
+        "lore": {
+          "history": 40,
+          "geography": 50
+        },
+        "languages": {
+          "common": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Dagger",
+            "type": "dagger",
+            "damage": "1d4+2"
+          }
+        ],
+        "armor": {
+          "type": "rags",
+          "defense": 10
+        },
+        "items": [
+          "The One Ring (formerly)"
+        ]
+      },
+      "background": {
+        "title": "Former Ring-bearer",
+        "allies": [
+          "None"
+        ],
+        "enemies": [
+          "Frodo",
+          "Samwise",
+          "Sauron"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7c/Gollum.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440016",
+      "name": "Shelob",
+      "race": "Giant Spider",
+      "class": "Monster",
+      "level": 50,
+      "stats": {
+        "strength": 90,
+        "agility": 70,
+        "constitution": 80,
+        "intelligence": 30,
+        "intuition": 60,
+        "presence": 50,
+        "appearance": 20
+      },
+      "skills": {
+        "melee": {
+          "bite": 120,
+          "web": 100
+        },
+        "stealth": {
+          "hiding": 90
+        },
+        "survival": {
+          "tracking": 70,
+          "climbing": 80
+        },
+        "lore": {
+          "history": 40,
+          "geography": 50
+        },
+        "languages": {
+          "common": "none"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Venomous Bite",
+            "type": "bite",
+            "damage": "2d10+5"
+          }
+        ],
+        "armor": {
+          "type": "natural armor",
+          "defense": 60
+        },
+        "items": []
+      },
+      "background": {
+        "title": "Terror of Cirith Ungol",
+        "allies": [
+          "None"
+        ],
+        "enemies": [
+          "Frodo",
+          "Samwise"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Shelob.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440017",
+      "name": "Gríma Wormtongue",
+      "race": "Human",
+      "class": "Advisor",
+      "level": 10,
+      "stats": {
+        "strength": 40,
+        "agility": 50,
+        "constitution": 45,
+        "intelligence": 80,
+        "intuition": 70,
+        "presence": 60,
+        "appearance": 30
+      },
+      "skills": {
+        "melee": {
+          "dagger": 50
+        },
+        "stealth": {
+          "sneaking": 70
+        },
+        "lore": {
+          "history": 60,
+          "geography": 55
+        },
+        "languages": {
+          "common": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Poisoned Dagger",
+            "type": "dagger",
+            "damage": "1d6+2"
+          }
+        ],
+        "armor": {
+          "type": "robes",
+          "defense": 20
+        },
+        "items": [
+          "Poison Vial"
+        ]
+      },
+      "background": {
+        "title": "Advisor to Theoden",
+        "allies": [
+          "Saruman"
+        ],
+        "enemies": [
+          "Theoden",
+          "Aragorn"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Grima_Wormtongue.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440018",
+      "name": "Lurtz",
+      "race": "Uruk-hai",
+      "class": "Warrior",
+      "level": 20,
+      "stats": {
+        "strength": 90,
+        "agility": 70,
+        "constitution": 85,
+        "intelligence": 60,
+        "intuition": 50,
+        "presence": 40,
+        "appearance": 30
+      },
+      "skills": {
+        "melee": {
+          "sword": 110,
+          "axe": 100
+        },
+        "ranged": {
+          "bow": 80
+        },
+        "survival": {
+          "tracking": 70,
+          "climbing": 60
+        },
+        "lore": {
+          "history": 50,
+          "geography": 40
+        },
+        "languages": {
+          "common": "basic",
+          "black speech": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Uruk-hai Sword",
+            "type": "sword",
+            "damage": "1d10+4"
+          },
+          {
+            "name": "Uruk-hai Bow",
+            "type": "bow",
+            "damage": "1d8+3"
+          }
+        ],
+        "armor": {
+          "type": "heavy armor",
+          "defense": 70
+        },
+        "items": []
+      },
+      "background": {
+        "title": "Leader of the Uruk-hai",
+        "allies": [
+          "Saruman"
+        ],
+        "enemies": [
+          "Aragorn",
+          "Legolas",
+          "Gimli"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/2/2c/Lurtz.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440019",
+      "name": "Gothmog",
+      "race": "Orc",
+      "class": "General",
+      "level": 25,
+      "stats": {
+        "strength": 85,
+        "agility": 60,
+        "constitution": 80,
+        "intelligence": 70,
+        "intuition": 60,
+        "presence": 50,
+        "appearance": 20
+      },
+      "skills": {
+        "melee": {
+          "sword": 100,
+          "mace": 90
+        },
+        "ranged": {
+          "bow": 60
+        },
+        "survival": {
+          "tracking": 60,
+          "climbing": 50
+        },
+        "lore": {
+          "history": 60,
+          "geography": 50
+        },
+        "languages": {
+          "common": "basic",
+          "black speech": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Orc Sword",
+            "type": "sword",
+            "damage": "1d8+3"
+          },
+          {
+            "name": "Orc Mace",
+            "type": "mace",
+            "damage": "1d10+4"
+          }
+        ],
+        "armor": {
+          "type": "heavy armor",
+          "defense": 60
+        },
+        "items": []
+      },
+      "background": {
+        "title": "General of Mordor",
+        "allies": [
+          "Sauron"
+        ],
+        "enemies": [
+          "Aragorn",
+          "Gandalf"
+        ]
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/5/5c/Gothmog.jpg"
+    }
+  ],
+  "players_characters": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440024",
+      "name": "Thalor the Invincible",
+      "race": "Dragonborn",
+      "class": "Warrior",
+      "level": 50,
+      "stats": {
+        "strength": 100,
+        "agility": 90,
+        "constitution": 95,
+        "intelligence": 80,
+        "intuition": 85,
+        "presence": 90,
+        "appearance": 70
+      },
+      "skills": {
+        "melee": {
+          "greatsword": 150,
+          "axe": 140
+        },
+        "ranged": {
+          "crossbow": 120
+        },
+        "survival": {
+          "tracking": 100,
+          "herbalism": 90,
+          "climbing": 95
+        },
+        "lore": {
+          "history": 90,
+          "geography": 85
+        },
+        "languages": {
+          "common": "fluent",
+          "draconic": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Dragonbane",
+            "type": "greatsword",
+            "damage": "3d10+10"
+          },
+          {
+            "name": "War Axe",
+            "type": "axe",
+            "damage": "2d8+8"
+          }
+        ],
+        "armor": {
+          "type": "dragon scale",
+          "defense": 100
+        },
+        "items": [
+          "Healing Potion",
+          "Dragon Amulet"
+        ]
+      },
+      "background": {
+        "title": "Champion of the Dragonborn",
+        "allies": [
+          "None"
+        ],
+        "enemies": [
+          "All who oppose"
+        ]
+      },
+      "image_url": "https://example.com/images/thalor.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440025",
+      "name": "Zara the Enchantress",
+      "race": "Elf",
+      "class": "Sorceress",
+      "level": 50,
+      "stats": {
+        "strength": 70,
+        "agility": 85,
+        "constitution": 80,
+        "intelligence": 100,
+        "intuition": 95,
+        "presence": 100,
+        "appearance": 95
+      },
+      "skills": {
+        "melee": {
+          "staff": 120,
+          "dagger": 110
+        },
+        "magic": {
+          "fire": 150,
+          "ice": 140,
+          "healing": 130
+        },
+        "lore": {
+          "history": 100,
+          "geography": 90
+        },
+        "languages": {
+          "common": "fluent",
+          "elvish": "fluent",
+          "arcane": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Staff of Elements",
+            "type": "staff",
+            "damage": "3d8+10"
+          },
+          {
+            "name": "Enchanted Dagger",
+            "type": "dagger",
+            "damage": "2d6+6"
+          }
+        ],
+        "armor": {
+          "type": "enchanted robes",
+          "defense": 80
+        },
+        "items": [
+          "Mana Potion",
+          "Amulet of Power"
+        ]
+      },
+      "background": {
+        "title": "Master of the Arcane",
+        "allies": [
+          "None"
+        ],
+        "enemies": [
+          "All who seek darkness"
+        ]
+      },
+      "image_url": "https://example.com/images/zara.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440026",
+      "name": "Gorath the Destroyer",
+      "race": "Orc",
+      "class": "Berserker",
+      "level": 50,
+      "stats": {
+        "strength": 100,
+        "agility": 80,
+        "constitution": 95,
+        "intelligence": 60,
+        "intuition": 70,
+        "presence": 75,
+        "appearance": 50
+      },
+      "skills": {
+        "melee": {
+          "warhammer": 150,
+          "axe": 140
+        },
+        "ranged": {
+          "throwing axe": 120
+        },
+        "survival": {
+          "tracking": 90,
+          "herbalism": 80,
+          "climbing": 85
+        },
+        "lore": {
+          "history": 70,
+          "geography": 65
+        },
+        "languages": {
+          "common": "basic",
+          "orcish": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Warhammer of Doom",
+            "type": "warhammer",
+            "damage": "3d12+10"
+          },
+          {
+            "name": "Battle Axe",
+            "type": "axe",
+            "damage": "2d10+8"
+          }
+        ],
+        "armor": {
+          "type": "heavy plate",
+          "defense": 100
+        },
+        "items": [
+          "Rage Potion",
+          "Orcish Talisman"
+        ]
+      },
+      "background": {
+        "title": "Warlord of the Orcs",
+        "allies": [
+          "None"
+        ],
+        "enemies": [
+          "All who stand in his way"
+        ]
+      },
+      "image_url": "https://example.com/images/gorath.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440027",
+      "name": "Lyria the Shadow",
+      "race": "Human",
+      "class": "Assassin",
+      "level": 50,
+      "stats": {
+        "strength": 80,
+        "agility": 100,
+        "constitution": 75,
+        "intelligence": 85,
+        "intuition": 90,
+        "presence": 70,
+        "appearance": 85
+      },
+      "skills": {
+        "melee": {
+          "dagger": 150,
+          "shortsword": 140
+        },
+        "stealth": {
+          "sneaking": 150,
+          "lockpicking": 140
+        },
+        "survival": {
+          "tracking": 90,
+          "herbalism": 80,
+          "climbing": 85
+        },
+        "lore": {
+          "history": 80,
+          "geography": 75
+        },
+        "languages": {
+          "common": "fluent",
+          "thieves' cant": "fluent"
+        }
+      },
+      "equipment": {
+        "weapons": [
+          {
+            "name": "Shadow Dagger",
+            "type": "dagger",
+            "damage": "2d8+8"
+          },
+          {
+            "name": "Silent Blade",
+            "type": "shortsword",
+            "damage": "2d6+6"
+          }
+        ],
+        "armor": {
+          "type": "leather",
+          "defense": 60
+        },
+        "items": [
+          "Invisibility Potion",
+          "Thieves' Tools"
+        ]
+      },
+      "background": {
+        "title": "Master Assassin",
+        "allies": [
+          "None"
+        ],
+        "enemies": [
+          "All who are marked"
+        ]
+      },
+      "image_url": "https://example.com/images/lyria.jpg"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+services:
+  client-merp-combat:
+    build: .
+    command: ./.docker/start.sh
+    container_name: client-merp-combat
+    volumes:
+      - .:/home/node/client-merp-combat
+    ports:
+      - 4001:4001
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+# /etc/hosts
+
+#IP do gateway host.docker.internal
+
+
+#127.0.0.1 host.docker.internal
