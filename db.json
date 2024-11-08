@@ -78,7 +78,7 @@
           "Saruman"
         ]
       },
-      "image_url": "./assets/images/aragorn_thumb.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440001",
@@ -152,7 +152,7 @@
           "Saruman"
         ]
       },
-      "image_url": "./assets/images/legolas_thumb.jpg"
+      "image_url": "/legolas_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440002",
@@ -226,7 +226,7 @@
           "Saruman"
         ]
       },
-      "image_url": "./assets/images/gimli_thumb.jpg"
+      "image_url": "/gimli_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440003",
@@ -299,7 +299,7 @@
           "Saruman"
         ]
       },
-      "image_url": "../assets/images/gandalf_thumb.jpg"
+      "image_url": "/gandalf_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440004",
@@ -367,7 +367,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/16/Frodo_Baggins.jpg"
+      "image_url": "/frodo_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440005",
@@ -435,7 +435,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Samwise_Gamgee.jpg"
+      "image_url": "/sam_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440006",
@@ -508,7 +508,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/3/31/Boromir.jpg"
+      "image_url": "/boromir_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440007",
@@ -574,7 +574,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/77/Galadriel.jpg"
+      "image_url": "/galadriel_thumb.jpg"
     }
   ],
   "featured": [
@@ -656,7 +656,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://www.filmonpaper.com/wp-content/uploads/2011/05/TheLordOfTheRingsTheReturnOfTheKing_onesheet_teaser_Aragorn_Canada-1-500x736.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440001",
@@ -730,7 +730,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://i.pinimg.com/736x/a0/bb/19/a0bb197138f1cc7f0b8e53ab678f9a4e.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440002",
@@ -804,7 +804,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://i.pinimg.com/originals/70/43/2d/70432de9b47fead7f76a2a0e6f5affad.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440003",
@@ -877,7 +877,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://example.com/images/gandalf.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440004",
@@ -945,7 +945,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/16/Frodo_Baggins.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440005",
@@ -1013,7 +1013,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Samwise_Gamgee.jpg"
+      "image_url": "/sam_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440006",
@@ -1086,7 +1086,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/3/31/Boromir.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440007",
@@ -1152,7 +1152,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/77/Galadriel.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440008",
@@ -1217,7 +1217,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Elrond.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440009",
@@ -1282,7 +1282,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Arwen.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440010",
@@ -1355,7 +1355,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Eowyn.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440011",
@@ -1428,7 +1428,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/5/5e/Theoden.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440020",
@@ -1500,7 +1500,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://example.com/images/eldarion.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440021",
@@ -1569,7 +1569,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://example.com/images/thranduil.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440022",
@@ -1641,7 +1641,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://example.com/images/eomer.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440023",
@@ -1713,7 +1713,7 @@
           "Saruman"
         ]
       },
-      "image_url": "https://example.com/images/faramir.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     }
   ],
   "enimies": [
@@ -1779,7 +1779,7 @@
           "Frodo"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7f/Sauron.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440013",
@@ -1849,7 +1849,7 @@
           "Frodo"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/10/Saruman.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440014",
@@ -1918,7 +1918,7 @@
           "Eowyn"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/3/3c/Witch-king_of_Angmar.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440015",
@@ -1982,7 +1982,7 @@
           "Sauron"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7c/Gollum.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440016",
@@ -2043,7 +2043,7 @@
           "Samwise"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Shelob.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440017",
@@ -2101,7 +2101,7 @@
           "Aragorn"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Grima_Wormtongue.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440018",
@@ -2169,7 +2169,7 @@
           "Gimli"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/2/2c/Lurtz.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440019",
@@ -2236,7 +2236,7 @@
           "Gandalf"
         ]
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/5/5c/Gothmog.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     }
   ],
   "players_characters": [
@@ -2308,7 +2308,7 @@
           "All who oppose"
         ]
       },
-      "image_url": "https://example.com/images/thalor.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440025",
@@ -2376,7 +2376,7 @@
           "All who seek darkness"
         ]
       },
-      "image_url": "https://example.com/images/zara.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440026",
@@ -2446,7 +2446,7 @@
           "All who stand in his way"
         ]
       },
-      "image_url": "https://example.com/images/gorath.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     },
     {
       "id": "550e8400-e29b-41d4-a716-446655440027",
@@ -2517,7 +2517,7 @@
           "All who are marked"
         ]
       },
-      "image_url": "https://example.com/images/lyria.jpg"
+      "image_url": "/aragorn_thumb.jpg"
     }
   ]
 }

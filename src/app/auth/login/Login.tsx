@@ -5,7 +5,6 @@ import { InputField } from '../InputField';
 
 export default function LoginForm() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    console.log('submit');
     e.preventDefault();
   };
   return (

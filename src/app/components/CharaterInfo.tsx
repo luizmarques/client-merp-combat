@@ -14,17 +14,13 @@ export const CharacterInfo = ({ character }: { character: Character }) => (
     <div className='flex flex-row items-center justify-between gap-2'>
       <div className='flex flex-row items-center gap-2'>
         <div className='flex h-6 w-6 cursor-pointer items-center justify-center rounded-full bg-transparent transition hover:bg-neutral-300 hover:text-black lg:h-10 lg:w-10'>
-          <Link href={`/watch/${character.character_id}`}>
+          <Link href={`/watch/${character.id}`}>
             <PlayIcon className='w-4 lg:w-6' />
           </Link>
         </div>
-        <div className='flex h-6 w-6 cursor-pointer items-center justify-center rounded-full bg-transparent transition hover:bg-neutral-300 hover:text-black lg:h-10  lg:w-10'>
-          <PlusIcon className='w-4 lg:w-6' />
-        </div>
+
       </div>
-      <div className='flex h-6 w-6 cursor-pointer items-center justify-center rounded-full bg-transparent transition hover:bg-neutral-300 hover:text-black lg:h-10 lg:w-10'>
-        <ChevronDownIcon className='w-4 lg:w-6' />
-      </div>
+     
     </div>
 
     <div className='mt-4 text-sm font-bold text-white lg:text-lg'>
@@ -33,7 +29,8 @@ export const CharacterInfo = ({ character }: { character: Character }) => (
 
     <div className='mt-4 flex flex-col gap-2 text-sm'>
       <div className='flex flex-row items-center gap-2'>
-        <SpeakerWaveIcon className='w-4' /> Double Atmos 5.1 4K
+        
+
       </div>
       <div className='flex flex-row items-center gap-2'>
         <UserGroupIcon className='w-4' /> <CharacterRating rating={(character.level).toString()} />

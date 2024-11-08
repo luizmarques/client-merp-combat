@@ -2,7 +2,7 @@ import { Character, Characters } from '../types/character';
 import { RequestOptions, apiRequest } from './ApiRequest';
 
 export const getCharacterById = async (id: string): Promise<Character> => {
-  return apiRequest(`characters/${encodeURIComponent(id)}`);
+  return apiRequest(`characters/${id}`);
 };
 
 export const getFeaturedCharacter = async (id: string): Promise<Character> => {
