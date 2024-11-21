@@ -103,7 +103,7 @@ const CharacterSheetDetails: React.FC<Props> = ({ character }) => {
         <div className="w-11/12 pl-4 text-left">
           <h1 className="text-xl font-bold mb-2">{character.name}</h1>
           {character.race && <p className="text-sm"><strong>Race:</strong> {character.race}</p>}
-          {character.profession && <p className="text-sm"><strong>Profession:</strong> {character.profession}</p>}
+          {character.class && <p className="text-sm"><strong>class:</strong> {character.class}</p>}
           {character.level && <p className="text-sm"><strong>Level:</strong> {character.level}</p>}
         </div>
       </div>

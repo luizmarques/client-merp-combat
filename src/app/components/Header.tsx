@@ -12,7 +12,7 @@ export default function Header() {
   const isScrolled = useScroll();
   const router = useRouter();
   const params = useSearchParams();
-  const initialSearchTerm = params.get('name') ?? '';
+  const initialSearchTerm = params.get('class') || '';
   const [searchTerm, setSearchTerm] = useState<string>(initialSearchTerm);
 
   const onSearchTermChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -22,7 +22,7 @@ export default function Header() {
   const onSearch = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const newParams = new URLSearchParams(params.toString());
-    newParams.set('character.name', searchTerm);
+    newParams.set('class', searchTerm);
     router.push(`/search?${newParams.toString()}`);
   };
 
@@ -36,9 +36,8 @@ export default function Header() {
           <Link href='/'>
             <Logo />
           </Link>
-
+          <NavLinks />
         </div>
-
         <div className='flex items-center space-x-2 md:space-x-8'>
           <SearchForm
             onSearch={onSearch}
@@ -47,8 +46,6 @@ export default function Header() {
             />
           <UserProfile />
         </div>
-
     </header>
-    
   );
 }

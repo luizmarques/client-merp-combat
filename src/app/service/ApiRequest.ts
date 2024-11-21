@@ -1,10 +1,10 @@
 const API_URL = process.env.API_URL ?? 'http://localhost:3333';
 
-export  type ApiQueryParams = {
+export interface ApiQueryParams {
   [key: string]: string | number | boolean;
 }
 
-export  type RequestOptions = {
+export interface RequestOptions {
   page?: number;
   _limit?: number;
   rating_like?: string;
@@ -28,10 +28,14 @@ export async function apiRequest<T>(
   query: ApiQueryParams = {},
   options: RequestOptions = {}
 ): Promise<T> {
-  const mergedOptions: RequestOptions = { ...defaultOptions, ...options };
+  const mergedOptions: RequestOptions = { ...defaultOptions, ...options};
   const queryString: string = buildQueryString({ ...query, ...mergedOptions });
   try {
-    const response = await fetch(`${API_URL}/${endpoint}${queryString}`);
+    const response = await fetch(`${API_URL}/${endpoint}/${queryString}`, {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
     if (!response.ok) {
       throw new Error(`API request failed: ${response.statusText}`);
     }

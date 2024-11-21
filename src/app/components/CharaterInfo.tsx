@@ -1,9 +1,6 @@
 import Link from 'next/link';
 import {
-  ChevronDownIcon,
   PlayIcon,
-  PlusIcon,
-  SpeakerWaveIcon,
   UserGroupIcon,
 } from '@heroicons/react/24/outline';
 import type { Character } from '../types/character';
@@ -14,7 +11,7 @@ export const CharacterInfo = ({ character }: { character: Character }) => (
     <div className='flex flex-row items-center justify-between gap-2'>
       <div className='flex flex-row items-center gap-2'>
         <div className='flex h-6 w-6 cursor-pointer items-center justify-center rounded-full bg-transparent transition hover:bg-neutral-300 hover:text-black lg:h-10 lg:w-10'>
-          <Link href={`/watch/${character.id}`}>
+          <Link href={`/watch/${character.character_id}`}>
             <PlayIcon className='w-4 lg:w-6' />
           </Link>
         </div>

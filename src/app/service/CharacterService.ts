@@ -1,32 +1,35 @@
-import { Character, Characters } from '../types/character';
-import { RequestOptions, apiRequest } from './ApiRequest';
+import { Character, Characters } from "../types/character";
+import { apiRequest, RequestOptions } from "./ApiRequest";
+
 
 export const getCharacterById = async (id: string): Promise<Character> => {
-  return apiRequest(`characters/${id}`);
+  console.log('id', id);
+  return apiRequest(`characters/${encodeURIComponent(id)}`);
 };
 
 export const getFeaturedCharacter = async (id: string): Promise<Character> => {
-  return apiRequest(`featured/${id}`);
+  return apiRequest(`characters/${id}`);
 };
 
-export const getCharactersByProfession = async (
-  profession: string,
+export const getCharactersByClass = async (
+  _class: string,
   options?: RequestOptions
-): Promise<Characters> => apiRequest(`characters`, { professions_like: profession }, options);
+): Promise<Characters> => {
+  return apiRequest(`characters`, { class_like: _class });
+}
 
 export const searchCharacters = async (
   name: string = '',
-  profession: string = '',
+  _class: string = '',
   options: RequestOptions = {
-    _limit: 100,
+    _limit: 20,
   }
 ): Promise<Characters> => {
   return apiRequest(
     `characters`,
     {
       name_like: name,
-      professions_like: profession,
+      class_like: _class,
     },
-    options
   );
 }

@@ -1,7 +1,9 @@
 {
   "characters": [
     {
-      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440000",
       "name": "Aragorn",
       "race": "Dúnedain",
       "class": "Ranger",
@@ -81,7 +83,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440001",
       "name": "Legolas",
       "race": "Elf",
       "class": "Archer",
@@ -155,7 +159,9 @@
       "image_url": "/legolas_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440002",
       "name": "Gimli",
       "race": "Dwarf",
       "class": "Warrior",
@@ -229,7 +235,9 @@
       "image_url": "/gimli_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440003",
       "name": "Gandalf",
       "race": "Maia",
       "class": "Wizard",
@@ -302,7 +310,9 @@
       "image_url": "/gandalf_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440004",
       "name": "Frodo Baggins",
       "race": "Hobbit",
       "class": "Ring-bearer",
@@ -370,7 +380,9 @@
       "image_url": "/frodo_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440005",
       "name": "Samwise Gamgee",
       "race": "Hobbit",
       "class": "Gardener",
@@ -438,7 +450,9 @@
       "image_url": "/sam_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440006",
       "name": "Boromir",
       "race": "Human",
       "class": "Warrior",
@@ -511,7 +525,9 @@
       "image_url": "/boromir_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440007",
       "name": "Galadriel",
       "race": "Elf",
       "class": "Sorceress",
@@ -579,7 +595,9 @@
   ],
   "featured": [
     {
-      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440000",
       "name": "Aragorn",
       "race": "Dúnedain",
       "class": "Ranger",
@@ -659,7 +677,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440001",
       "name": "Legolas",
       "race": "Elf",
       "class": "Archer",
@@ -733,7 +753,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440002",
       "name": "Gimli",
       "race": "Dwarf",
       "class": "Warrior",
@@ -807,7 +829,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440003",
       "name": "Gandalf",
       "race": "Maia",
       "class": "Wizard",
@@ -880,7 +904,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440004",
       "name": "Frodo Baggins",
       "race": "Hobbit",
       "class": "Ring-bearer",
@@ -948,7 +974,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440005",
       "name": "Samwise Gamgee",
       "race": "Hobbit",
       "class": "Gardener",
@@ -1016,7 +1044,9 @@
       "image_url": "/sam_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440006",
       "name": "Boromir",
       "race": "Human",
       "class": "Warrior",
@@ -1089,7 +1119,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440007",
       "name": "Galadriel",
       "race": "Elf",
       "class": "Sorceress",
@@ -1155,7 +1187,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440008",
       "name": "Elrond",
       "race": "Elf",
       "class": "Lord",
@@ -1220,7 +1254,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440009",
       "name": "Arwen",
       "race": "Elf",
       "class": "Princess",
@@ -1285,10 +1321,12 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440010",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440010",
       "name": "Eowyn",
       "race": "Human",
-      "class": "Shieldmaiden",
+      "class": "Shieldmacharacter_iden",
       "level": 18,
       "stats": {
         "strength": 85,
@@ -1344,7 +1382,7 @@
         ]
       },
       "background": {
-        "title": "Shieldmaiden of Rohan",
+        "title": "Shieldmacharacter_iden of Rohan",
         "allies": [
           "Aragorn",
           "Theoden",
@@ -1358,7 +1396,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440011",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440011",
       "name": "Theoden",
       "race": "Human",
       "class": "King",
@@ -1431,7 +1471,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440020",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440020",
       "name": "Eldarion",
       "race": "Half-Elf",
       "class": "Warrior",
@@ -1503,7 +1545,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440021",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440021",
       "name": "Thranduil",
       "race": "Elf",
       "class": "King",
@@ -1572,7 +1616,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440022",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440022",
       "name": "Eomer",
       "race": "Human",
       "class": "Warrior",
@@ -1631,7 +1677,7 @@
         ]
       },
       "background": {
-        "title": "Marshal of the Riddermark",
+        "title": "Marshal of the Rcharacter_iddermark",
         "allies": [
           "Theoden",
           "Eowyn"
@@ -1644,7 +1690,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440023",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440023",
       "name": "Faramir",
       "race": "Human",
       "class": "Ranger",
@@ -1718,7 +1766,9 @@
   ],
   "enimies": [
     {
-      "id": "550e8400-e29b-41d4-a716-446655440012",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440012",
       "name": "Sauron",
       "race": "Maia",
       "class": "Dark Lord",
@@ -1782,7 +1832,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440013",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440013",
       "name": "Saruman",
       "race": "Maia",
       "class": "Wizard",
@@ -1852,7 +1904,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440014",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440014",
       "name": "Witch-king of Angmar",
       "race": "Nazgûl",
       "class": "Sorcerer",
@@ -1921,7 +1975,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440015",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440015",
       "name": "Gollum",
       "race": "Hobbit",
       "class": "Thief",
@@ -1985,9 +2041,11 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440016",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440016",
       "name": "Shelob",
-      "race": "Giant Spider",
+      "race": "Giant Spcharacter_ider",
       "class": "Monster",
       "level": 50,
       "stats": {
@@ -2005,7 +2063,7 @@
           "web": 100
         },
         "stealth": {
-          "hiding": 90
+          "hcharacter_iding": 90
         },
         "survival": {
           "tracking": 70,
@@ -2046,7 +2104,9 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440017",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440017",
       "name": "Gríma Wormtongue",
       "race": "Human",
       "class": "Advisor",
@@ -2104,10 +2164,12 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440018",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440018",
       "name": "Lurtz",
       "race": "Uruk-hai",
-      "class": "Warrior",
+      "class":[ "Warrior"],
       "level": 20,
       "stats": {
         "strength": 90,
@@ -2172,10 +2234,12 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440019",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440019",
       "name": "Gothmog",
       "race": "Orc",
-      "class": "General",
+      "class":[ "General"],
       "level": 25,
       "stats": {
         "strength": 85,
@@ -2241,10 +2305,12 @@
   ],
   "players_characters": [
     {
-      "id": "550e8400-e29b-41d4-a716-446655440024",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440024",
       "name": "Thalor the Invincible",
       "race": "Dragonborn",
-      "class": "Warrior",
+      "class":[ "Warrior"],
       "level": 50,
       "stats": {
         "strength": 100,
@@ -2311,10 +2377,12 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440025",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440025",
       "name": "Zara the Enchantress",
       "race": "Elf",
-      "class": "Sorceress",
+      "class":[ "Sorceress"],
       "level": 50,
       "stats": {
         "strength": 70,
@@ -2379,10 +2447,12 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440026",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440026",
       "name": "Gorath the Destroyer",
       "race": "Orc",
-      "class": "Berserker",
+      "class":[ "Berserker"],
       "level": 50,
       "stats": {
         "strength": 100,
@@ -2449,10 +2519,12 @@
       "image_url": "/aragorn_thumb.jpg"
     },
     {
-      "id": "550e8400-e29b-41d4-a716-446655440027",
+      "created_at": "2024-11-13T19:33:27.843Z",
+      "created_by": "luiz",
+      "character_id": "550e8400-e29b-41d4-a716-446655440027",
       "name": "Lyria the Shadow",
       "race": "Human",
-      "class": "Assassin",
+      "class":[ "Assassin"],
       "level": 50,
       "stats": {
         "strength": 80,

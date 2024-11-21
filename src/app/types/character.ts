@@ -1,8 +1,8 @@
 export type Character = {
-  id: string;
+  character_id: string;
   name: string;
   race: string;
-  profession: string;
+  class: string;
   level: number;
   stats: {
     strength: number;
