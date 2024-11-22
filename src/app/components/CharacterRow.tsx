@@ -1,25 +1,20 @@
 import { Characters } from '../types/character';
 import { CharacterCard } from './CharacterCard';
 
-type CharacterRowProps = Readonly<{
+export type CharacterRowProps = Readonly<{
   sectionTitle: string;
   characters: Characters;
 }>;
 
 export function CharacterRow({ sectionTitle, characters }: CharacterRowProps) {
   return (
-    <div className='flex-col space-y-2'>
-      <div className='flex'>
-        <h2 className='my-4 inline-flex items-center text-2xl font-bold'>
-          {sectionTitle}
-        </h2>
-      </div>
-
-      <div className='grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-8'>
-        {characters.map((character) => (
-          <CharacterCard key={character.character_id} character={character} />
-        ))}
-      </div>
+    <div className='mb-4'>
+    <h2 className='text-xl font-bold lg:text-2xl'>{sectionTitle}</h2>
+    <div className='grid grid-cols-10 gap-2 sm:grid-cols-10 md:grid-cols-10 lg:grid-cols-10 lg:gap-2 xl:grid-cols-10 xl:gap-2'>
+      {characters.map((character) => (
+        <CharacterCard key={character.character_id} character={character} />
+      ))}
     </div>
+  </div>
   );
 }

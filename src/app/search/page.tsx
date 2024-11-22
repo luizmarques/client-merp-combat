@@ -10,11 +10,11 @@ interface ISearchParams {
 }
 
 interface ISearchProps {
-  readonly searchParams: ISearchParams;
+  searchParams: ISearchParams;
 }
 
-export default async function SearchResults({ searchParams }: ISearchProps) {
-  const { name , _class } = searchParams;
+export default async function SearchResults({ searchParams }: Readonly<ISearchProps>) {
+  const { name, _class } = searchParams;
   const characters = await searchCharacters(name, _class);
   if (characters.length === 0) {
     return (

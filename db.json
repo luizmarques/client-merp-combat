@@ -2169,7 +2169,7 @@
       "character_id": "550e8400-e29b-41d4-a716-446655440018",
       "name": "Lurtz",
       "race": "Uruk-hai",
-      "class":[ "Warrior"],
+      "class":"Warrior",
       "level": 20,
       "stats": {
         "strength": 90,
@@ -2239,7 +2239,7 @@
       "character_id": "550e8400-e29b-41d4-a716-446655440019",
       "name": "Gothmog",
       "race": "Orc",
-      "class":[ "General"],
+      "class":"General",
       "level": 25,
       "stats": {
         "strength": 85,
@@ -2310,7 +2310,7 @@
       "character_id": "550e8400-e29b-41d4-a716-446655440024",
       "name": "Thalor the Invincible",
       "race": "Dragonborn",
-      "class":[ "Warrior"],
+      "class":"Warrior",
       "level": 50,
       "stats": {
         "strength": 100,
@@ -2382,7 +2382,7 @@
       "character_id": "550e8400-e29b-41d4-a716-446655440025",
       "name": "Zara the Enchantress",
       "race": "Elf",
-      "class":[ "Sorceress"],
+      "class":"Sorceress",
       "level": 50,
       "stats": {
         "strength": 70,
@@ -2452,7 +2452,7 @@
       "character_id": "550e8400-e29b-41d4-a716-446655440026",
       "name": "Gorath the Destroyer",
       "race": "Orc",
-      "class":[ "Berserker"],
+      "class":"Berserker",
       "level": 50,
       "stats": {
         "strength": 100,
@@ -2524,7 +2524,7 @@
       "character_id": "550e8400-e29b-41d4-a716-446655440027",
       "name": "Lyria the Shadow",
       "race": "Human",
-      "class":[ "Assassin"],
+      "class":"Assassin",
       "level": 50,
       "stats": {
         "strength": 80,

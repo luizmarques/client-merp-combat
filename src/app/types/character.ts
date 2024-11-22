@@ -51,3 +51,6 @@ export type Character = {
 };
 
 export type Characters = Character[];
+export type ResponseCharacters = {
+  items: Character[];
+}

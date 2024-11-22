@@ -3,17 +3,19 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useScroll } from "../hooks/useScroll";
 import Link from "next/link";
 import { Logo } from "./Logo";
-import { SearchForm } from "./SearchForm";
-import { UserProfile } from "./UserProfile";
 import { useState } from "react";
 import { NavLinks } from "./NavLinks";
+import { SearchForm } from "./SearchForm";
+import { UserProfile } from "./UserProfile";
 
 export default function Header() {
   const isScrolled = useScroll();
   const router = useRouter();
   const params = useSearchParams();
-  const initialSearchTerm = params.get('class') || '';
+  const initialSearchTerm = params.get('class') ?? '';
   const [searchTerm, setSearchTerm] = useState<string>(initialSearchTerm);
+
+  console.log("params", params)
 
   const onSearchTermChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value);
@@ -22,8 +24,8 @@ export default function Header() {
   const onSearch = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const newParams = new URLSearchParams(params.toString());
-    newParams.set('class', searchTerm);
-    router.push(`/search?${newParams.toString()}`);
+    console.log(newParams.set('class', searchTerm));
+    router.push(`characters/?${newParams.toString()}`);
   };
 
   return (
@@ -39,11 +41,11 @@ export default function Header() {
           <NavLinks />
         </div>
         <div className='flex items-center space-x-2 md:space-x-8'>
-          <SearchForm
+          {/* <SearchForm
             onSearch={onSearch}
             searchTerm={searchTerm}
             onSearchTermChange={onSearchTermChange}
-            />
+            /> */}
           <UserProfile />
         </div>
     </header>
