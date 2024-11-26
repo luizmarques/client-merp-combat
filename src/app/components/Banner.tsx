@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image';
 import React from 'react';
 import GridBg from '../../../assets/images/grid-bg.png';
@@ -7,9 +8,11 @@ export function Banner() {
   return (
     <div className='py-8'>
       <div className='flex justify-center'>
-          <Link href={'/#'} className=''>
+          <Link 
+          href={'/battle'}
+          className=''>
             <p className='text-shadow-md text-sm text-white md:max-w-lg md:text-lg lg:max-w-2xl'>
-              Select your character and start your adventure
+              Select your Characters and start your battle
             </p>
           </Link>
 

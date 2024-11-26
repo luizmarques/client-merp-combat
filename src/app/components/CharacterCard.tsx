@@ -3,6 +3,7 @@ import type { Character } from '../types/character';
 import { CharacterInfo } from './CharacterInfo';
 
 export const CharacterCard = ({ character }: { character: Character }) => (
+  
   <div className='group relative rounded md:min-h-[4vw] p-2'>
     <h1 className='text-sm text-white'>{character.name}</h1>
     <Image
@@ -20,7 +21,9 @@ export const CharacterCard = ({ character }: { character: Character }) => (
         height={75}
         className='duration h-[10vw] w-full cursor-pointer rounded-t-md object-cover object-top shadow-xl transition'
       />
-      <CharacterInfo character={character} />
+      <CharacterInfo 
+      character={character}
+      />
     </div>
   </div>
 );

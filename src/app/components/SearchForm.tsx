@@ -3,9 +3,9 @@ import React, { FormEvent, ChangeEvent } from 'react';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 
 type ISearchFormProps = {
-  readonly searchTerm: string;
-  readonly onSearch: (event: FormEvent<HTMLFormElement>) => void;
-  readonly onSearchTermChange: (event: ChangeEvent<HTMLInputElement>) => void;
+  searchTerm: string;
+  onSearch: (event: FormEvent<HTMLFormElement>) => void;
+  onSearchTermChange: (event: ChangeEvent<HTMLInputElement>) => void;
 }
 export function SearchForm({
   searchTerm,

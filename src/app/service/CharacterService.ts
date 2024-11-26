@@ -14,18 +14,13 @@ export const getCharactersByClass = async (
 }
 
 export const searchCharacters = async (
-  name: string = '',
   _class: string = '',
-  options: RequestOptions = {
-    _limit: 20,
-  }
-): Promise<Characters> => {
+  
+): Promise<ResponseCharacters> => {
   return apiRequest(
     `characters`,
     {
       class_like: _class,
-      name_like: name,
     },
-    options
   );
 }
